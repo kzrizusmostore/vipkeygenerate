@@ -1,0 +1,22 @@
+{
+  "name": "ZUSMO SHADOW",
+  "short_name": "ZUSMO",
+  "description": "ZUSMO SHADOW key generator",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "id",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    { "src": "asset/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "asset/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "asset/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Generate", "url": "./?goto=generate", "icons": [{ "src": "asset/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Buyer Card", "url": "./?goto=card", "icons": [{ "src": "asset/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Riwayat", "url": "./?goto=history", "icons": [{ "src": "asset/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
